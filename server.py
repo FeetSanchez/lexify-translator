@@ -4,6 +4,7 @@ import requests
 import os
 
 app = FastAPI()
+# redeploy trigger
 
 # Token será configurado nas variáveis do Railway
 HF_TOKEN = os.getenv("HF_TOKEN")
